@@ -11,6 +11,21 @@ Foundry consists of:
 
 ## Documentation
 
+## Working
+1. Raffle, people can participate by paying entry fees
+2. After a period of time, result will be declared
+   1. Using Chainlink VRF --> Randomness which help to choose the winner
+   2. Using Chainlink automation --> Result will declare automatically after the time has passed
+3. All money would transfer to winner
+
+## Testing
+1. Write deploy scripts
+   1. these will not work on zkSync
+2. Write tests
+   1. local chain
+   2. Forked testnet
+   3. Forked mainnet
+
 https://book.getfoundry.sh/
 
 ## Usage
